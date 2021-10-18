@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Auto Market</title>
+    <link rel="stylesheet"type="text/css"href="estilos/estilos.css">
+    <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+    
+</head>
+<body>
+
+        <nav class="navbar navbar-dark bg-dark "> 
+                <a class="nabvarbrand"> Auto Market </a>
+               
+               
+                   <div id="menu"> 
+           
+                       <ul id="item"> <a href="#menu">  </a> 
+           
+                               <li> <a href="/contacto.html"> contacto </a></li>
+           
+                       </ul>
+           
+                   
+                       <ul id="item"><a href="#">  </a> 
+           
+                               <li> <a href="/index.html"> inicio </a></li>
+           
+           
+                       </ul>
+                           
+                   </div>
+           
+        </nav> <br/><br/>
+
+        
+        <div class="col-md-5">
+                <div class="card-body">
+          
+                  <form action="/controlForm.js" name="formulario" method="get">
+
+                    
+                      <input type="text" name="nombre" placeholder="nombre" id="nombre" maxlength="30" class="control" > <br/><br/>
+                    
+                  
+                      <input type="text" name="provincia" placeholder="provincia" id="provincia" maxlength="20" class="control"> <br/><br/>
+                   
+                      <input type="text" name="Email" placeholder="Email" id="Email" class="control"> <br/><br/>
+                    
+                    
+                <input type="text" name="contacto" placeholder="texto de contacto" id="contacto" maxlength="40" class="control"> <br/><br/>
+                      
+          
+                    <button type="submit" class="btn btn-primary" onclick="validarForm(formulario.value)">
+                      enviar
+                    </button>
+
+                  </form>
+                </div>
+              </div>
+               
+
+        <footer id="footer">  <br/><br/> <br/><br/> <br/><br/> <br/><br/>
+                <ul id="foot">
+                        <li> Direccion: Avenida Luro 5000 </li>
+                        <li>Telefono:473 674</li>
+                        <li>Email:Automarket89@gmail.com</li>
+        </ul>    
+        </footer>
+
+</body>
+
+</html>
